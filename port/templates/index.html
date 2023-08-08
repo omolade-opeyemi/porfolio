@@ -1,0 +1,726 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center align-items-center" style="background-image: url(static/assets/img/IMG_2138.jpeg);">
+  <div class="hero-container" data-aos="fade-in" >
+    <h1>Opeyemi Victor Omolade</h1>
+    <p>I'm a <span class="typed" data-typed-items=" Developer,Designer, Freelancer"></span></p>
+  </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>I am a Software Engineer with over 4
+          years of experience in developing high-performing
+          beautiful websites that are conversion-focused,
+          brand-accurate and user-friendly as well as building
+          restful APIs, designing , testing, debugging,
+          maintenance and training staff
+          within the company. Proficient in
+          python/Django, Angular, React,
+          Javascript/Typescript and their accompanying technologies.
+          Experienced in agile methodology, a
+          good team player, strong communication
+          and interpersonal skills. Good attitude
+          and a desire to learn quickly on new
+          technologies/skills.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="{% static 'assets/img/IMG_21177.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Software Engineer &amp; Web Developer.</h3>
+          <p class="fst-italic">
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. -->
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>24 July 1994</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+234 813 0912 452</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Lagos, Nigeria</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>29</span></li> -->
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Science</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>opelium@gmail.com</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone2:</strong> <span>+234 9014937593</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+              </ul>
+            </div>
+          </div>
+          <!-- <p>
+            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut.
+            Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+          </p> -->
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+  <!-- ======= Facts Section ======= -->
+  <!-- <section id="facts" class="facts">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Facts</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="row no-gutters">
+
+        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p><strong>Happy Clients</strong> consequuntur quae</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="count-box">
+            <i class="bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="count-box">
+            <i class="bi bi-people"></i>
+            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+              class="purecounter"></span>
+            <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>End Facts Section -->
+
+  <!-- ======= Skills Section ======= -->
+  <section id="skills" class="skills section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>I am Opeyemi Victor Omolade from Nigeria!
+          I love programming, as well as running, travelling and learning new things! These are a few things I have
+          mastered over the period of my career and I am still learning new things .
+        </p>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6" data-aos="fade-up">
+
+          <div class="progress">
+            <span class="skill">Angular 2+ <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">React <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript/ Typescript <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">HTML <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">CSS/SCSS/SASS <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Bootstrap / Materialize css <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">NGRX <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">rEDUX <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Figma <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="progress">
+            <span class="skill">Python <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Django <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">C# <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Rest API <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">PostgresSQL <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Git/Github/GitLab <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Docker <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Jira <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Azure <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Skills Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <!-- <p>Magnam dolores commodi suscipit.
+          Necessitatibus eius consequatur ex
+          aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam
+          cupiditate. Et nemo qui impedit suscipit
+          alias ea. Quia fugiat sit in iste officiis
+          commodi quidem hic quas.</p> -->
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-up">
+          <h3 class="resume-title">Sumary</h3>
+          <div class="resume-item pb-0">
+            <h4>Opeyemi Victor Omolade</h4>
+            <p><em>With a track record of innovation 
+              and a commitment to meeting deadlines, 
+              I am a Software Engineer with over 4 years 
+              of experience specializing in the design 
+              and development of user-centered 
+              web applications. 
+              My expertise lies in taking projects 
+              from inception through to polished, 
+              final deliverables, and my unwavering 
+              commitment to meeting deadlines ensures 
+              successful project execution.</em>
+            </p>
+            <ul>
+              <li>Ikeja, Lagos, Nigeria</li>
+              <li>(+234) 8130912452</li>
+              <li>opelium@gmail.com</li>
+            </ul>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Bachelor of Science in Computer Science with Economics</h4>
+            <h5>2014 - 2019</h5>
+            <p><em>Obafemi Awolowo University, Nigeria</em></p>
+            <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius
+              unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila
+            </p> -->
+          </div>
+          <h3 class="resume-title">Certifications</h3>
+          <div class="resume-item">
+            <h4>Getting started with DevOps</h4>
+            <h5>Issued January 2023</h5>
+            <p><em>Simplilearn</em></p>
+            <a href="https://simpli-web.app.link/e/DQbv1K4inwb" target="_blank" rel="noopener noreferrer">Show credential</a>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>ICSI | CNSS Certified Network Security Specialist</h4>
+            <h5>Issued January 2020</h5>
+            <p><em>ICSI (International Cybersecurity Institute), UK</em></p>
+            <a href="https://www.credential.net/89fa564c-8598-458f-abf9-784a3ee3babe" target="_blank" rel="noopener noreferrer">Show credential</a>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Ethical Hacking With Python, JavaScript and Kali Linux</h4>
+            <h5>Issued March 2020</h5>
+            <p><em>Udemy</em></p>
+            <a href="http://ude.my/UC-9efa3ac9-841e-4fb0-a22f-5d2b9189803a" target="_blank" rel="noopener noreferrer">Show credential</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>SOFTWARE DEVELOPER ( LEAD FRONT-END DEVELOPER )</h4>
+            <h5>2021 - Present</h5>
+            <p><em>Halogen Security Company, Lagos, Nigeria</em></p>
+            <ul>
+              <li>
+                Worked with an agile team of back-end developers to build the client-facing side, partners-facing side, and resource side of
+                a ride-hailing app that allows clients to book a trip with escort services, allows vendors to provide resources
+                for the trip, and also allows the commander of a trip to start and stop the trip . 
+                The system was built using Angular, TypeScript, JavaScript, BootStrap, Materialise, NGRX, HTML, and CSS, and also
+worked with back-end developers to integrate API .
+
+              </li>
+              <li>
+                Worked with an agile team to build a 
+                contract-management system that allows every 
+                sales manager to keep track of their client for proper accounting, Invoicing and Subscription .
+                The system was built using Angular, TypeScript, JavaScript, BootStrap,Materialise, NGRX, HTML, and CSS, and also
+worked with back-end developers to integrate API .
+              </li>
+              <li>Planned and developed systems that simplified overall management and offered ease of use .</li>
+              <li>Collaborated on all stages of the development life cycle from requirement gathering to product releases, and offered security advice on best development practices .</li>
+              <li>Worked closely with the product team on the scope and features of the project.
+              </li>
+              <li>
+                <b>Key Achievement -</b> Automated the traditional manual process and reduced processing and accounting time by 60% .
+
+              </li>
+      
+               </ul>
+          </div>
+          <div class="resume-item">
+            <h4>SOFTWARE ENGINEER</h4>
+            <h5>01/2023 - 03/2023</h5>
+            <p><em>SSAF LOGISTICS, Lagos, Nigeria</em></p>
+            <ul>
+              <li>Conducted research and gathered all requirements needed for the project.</li>
+              <li>Built a responsive web 
+                application that consolidates 
+                all other in-house applications 
+                for everyday operations and accounting 
+                of the company.</li>
+              <li>Improved the response and accounting of the company by 60%, consequently generating more income for the company .</li>
+              
+            </ul>
+          </div>
+          <div class="resume-item">
+            <h4>SENIOR INSTRUCTOR</h4>
+            <h5>01/2020 - 03/2021</h5>
+            <p><em>Venocrypt Academy, Lagos, Nigeria</em></p>
+            <ul>
+              <li>Organized and gathered students from all over the world using all forms of social media for
+                advertisement.</li>
+              <li>Taught a minimum of 10 students per session in an online class .</li>
+              <li>Taught students on Python programming language, Data analysis and Data visualization .</li>
+              <li>Assigned projects to students to ensure that they achieve their learning goals .</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>I am Opeyemi Victor Omolade from Nigeria!
+          I love programming, researching, travelling and learning new things!
+          Feel free to get in touch or take a look at my past work below.</p>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <!-- <li data-filter=".filter-card">Card</li> -->
+            <li data-filter=".filter-web">Web</li>
+
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/Halosphere2.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/Halosphere.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="Halosphere"><i class="bx bx-plus"></i></a>
+              <a href="{% url 'haloshere' %}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/rollsafe2.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/rollsafe.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="RollSafe Client"><i class="bx bx-plus"></i></a>
+              <a href="{% url 'client' %}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/partners2.png' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/partners.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="RollSafe Partners"><i class="bx bx-plus"></i></a>
+              <a href="{% url 'partners' %}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/commanders2.png' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/commanders.png' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="RollSafe Resources"><i class="bx bx-plus"></i></a>
+              <a href="{% url 'commanders' %}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/haloweb.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/haloweb2.jpg' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="Halogen Website"><i class="bx bx-plus"></i></a>
+              <a href="{% url 'haloweb' %}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/supercript.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/supercript.jpg' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="Supercript"><i class="bx bx-plus"></i></a>
+              <a href="{% url 'supercrypt' %}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/Contract1.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/Contract1.jpg' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="Contract Manager"><i class="bx bx-plus"></i></a>
+              <a href="{% url 'contract' %}" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/portfolio-7.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/portfolio-7.jpg' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/portfolio-8.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/portfolio-8.jpg' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="{% static 'assets/img/portfolio/portfolio-9.jpg' %}" class="img-fluid" alt="">
+            <div class="portfolio-links">
+              <a href="{% static 'assets/img/portfolio/portfolio-9.jpg' %}" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Services Section ======= -->
+  <!-- <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+          <div class="icon"><i class="bi bi-briefcase"></i></div>
+          <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+            occaecati cupiditate non provident</p>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon"><i class="bi bi-card-checklist"></i></div>
+          <h4 class="title"><a href="">Dolor Sitema</a></h4>
+          <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat tarad limino ata</p>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon"><i class="bi bi-bar-chart"></i></div>
+          <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+          <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur</p>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon"><i class="bi bi-binoculars"></i></div>
+          <h4 class="title"><a href="">Magni Dolores</a></h4>
+          <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum</p>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon"><i class="bi bi-brightness-high"></i></div>
+          <h4 class="title"><a href="">Nemo Enim</a></h4>
+          <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+            voluptatum deleniti atque</p>
+        </div>
+        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+          <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+          <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+          <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+            soluta nobis est eligendi</p>
+        </div>
+      </div>
+
+    </div>
+  </section> -->
+  <!-- End Services Section -->
+
+  <!-- ======= Testimonials Section ======= -->
+  <!-- <section id="testimonials" class="testimonials section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Testimonials</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+          </div> -->
+          <!-- End testimonial item -->
+
+          <!-- <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="{% static 'assets/img/testimonials/testimonials-2.jpg' %}" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+          </div> -->
+          <!-- End testimonial item -->
+
+          <!-- <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor
+                labore quem eram duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="{% static 'assets/img/testimonials/testimonials-3.jpg' %}" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+          </div> -->
+          <!-- End testimonial item -->
+
+          <!-- <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim
+                dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="{% static 'assets/img/testimonials/testimonials-4.jpg' %}" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div> -->
+          <!-- End testimonial item -->
+
+          <!-- <div class="swiper-slide">
+            <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="{% static 'assets/img/testimonials/testimonials-5.jpg' %}" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div> -->
+          <!-- End testimonial item -->
+
+        <!-- </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section> -->
+  <!-- End Testimonials Section -->
+
+</main>
+<!-- End #main -->
+
+{% endblock %}

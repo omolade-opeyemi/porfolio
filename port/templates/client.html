@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content%}
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfolio Details</h2>
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>Portfolio Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="{% static 'assets/img/portfolio/rollsafe.png' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'assets/img/portfolio/Client Dashboard.png' %}" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="{% static 'assets/img/portfolio/Client-One-way trip.png' %}" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Web design</li>
+                <li><strong>Client</strong>: Halogen Security Company</li>
+                <li><strong>Project date</strong>: 01 March, 2022</li>
+                <li><strong>Project URL</strong>: <a href="https://mobility.halobizapps.com" target="_blank">www.mobility.halobizapps.com</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Summary</h2>
+              <p>
+                The RollSafe Platform is a digital 
+                platform that connects all of 
+                the players in the journey 
+                management value chain and ensures 
+                value is distributed transparently 
+                within that ecosystem. There are 3 
+                major players in the RollSafe ecosystem 
+                namely the clients, partners and resources 
+                used to facilitate the journey end to end. <br><br>
+                Clients are either corporate bodies or individuals 
+                that want to enjoy the ease and convenience 
+                of booking secured trips on familiar routes 
+                for either themselves, for others or and 
+                for cargo/merchandize. 
+              </p>
+              <p>
+                I single handedly built the front-end of the client-facing side of this website from start to finish  with Angular, Typescript, Bootstrap,
+                NGRX, HTML, SCSS and integrated all APIs .
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  {% endblock %}
+  

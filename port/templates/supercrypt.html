@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content%}
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfolio Details</h2>
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>Portfolio Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="{% static 'assets/img/portfolio/supercript.jpg' %}" alt="">
+                </div>
+                <!-- <div class="swiper-slide">
+                  <img src="{% static 'assets/img/portfolio/supercrypt4.jpg' %}" alt="" >
+                </div> -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Desktop Application </li>
+                <li><strong>Client</strong>: Freelance</li>
+                <li><strong>Project date</strong>: 01 January, 2021</li>
+                <li><strong>Project URL</strong>: <a href="https://www.youtube.com/watch?v=Ngs9VxuXxq0&t=293s" target="_blank">https://rb.gy/8pqes</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Summary</h2>
+              <p>
+                Supercrypt is a hybridized 
+                (Cryptography and Steganography) 
+                lossless data security software. 
+                It takes any secret or confidential file 
+                (mp4, mp3, documents, text) 
+                you want to hide from the public, 
+                compresses it, encrypts it with a 
+                password, and then hides it into 
+                an image of your choice. 
+                This image will serve as a 
+                camouflage to anyone that 
+                sees it as they will not 
+                know that a piece of 
+                information is embedded in the image. 
+                This information can be 
+                retrieved from the image 
+                with the same key used to encrypt it.
+
+              </p>
+              <p>
+                The application was built with Python, TKinter, Cryptography, Steganography .
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  {% endblock %}
+  
