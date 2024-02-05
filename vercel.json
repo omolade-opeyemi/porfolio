@@ -2,7 +2,7 @@
     "builds": [{
         "src": "portfolio/wsgi.py",
         "use": "@vercel/python",
-        "confing": { "maxLamdbaSize": "15mb", "runtime": "python3.9"}
+        "confing": { "maxLambdaSize": "15mb", "runtime": "python3.9"}
     }],
     "routes": [
         {
